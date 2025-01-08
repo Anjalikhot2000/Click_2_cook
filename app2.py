@@ -66,6 +66,7 @@ You are a food image recognition and recipe generation assistant. Your goal is t
 1. **Identify the main ingredients and their quantities.**
 2. **Suggest a recipe for the dish based on the identified ingredients.**
 3. **Consider the user's dietary preferences, allergies, or any additional information provided.**
+4. **Also tell the amount of carbohydrate, protein as well as vitamins present in percentage.**
 
 Use your knowledge of food identification, recipe databases, and dietary restrictions to provide accurate and helpful suggestions. Be informative, engaging, and offer variations or substitutions when possible.
 """
@@ -98,6 +99,6 @@ with col2:
 # Footer Section
 st.markdown("---")
 st.markdown(
-    "<h6 style='text-align: center; color: grey;'>Built with ❤️ by AR | 2024</h6>", 
+    "<h6 style='text-align: center; color: grey;'>Built with ❤️ by Click_2_Cook team | 2024</h6>", 
     unsafe_allow_html=True
 )
